@@ -1,0 +1,106 @@
+html {
+    background-image: url(../images/hus1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+/* header codes start  */
+
+.logohome {
+    width: 12%;
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+
+.menu {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 9%;
+}
+    
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 150%;
+    float: right;
+
+    }
+    
+    
+    .menu a{
+    text-decoration: none;
+    color: #c28853;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+
+}
+    
+    .menu a:hover {
+        background-color: #ffab0a;
+    }
+
+/* header codes end */
+
+/* footer codes start */
+
+footer {
+    width: 100%;
+    background-color: grey;
+    margin-top: 55%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20%;
+
+}
+
+.logofooter {
+    width: 12%;
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+.footericon1 {
+    width: 2%;
+}
+
+.footericon2 {
+    width: 2%
+}
+
+.footericon3 {
+    width: 2%;
+}
+
+.footertext {
+    display: inline-block;
+}   
+
+span {
+    margin-left: 5%;
+}
+
+.footerelements {
+    margin-left: 13%;
+}
+
+.copyright {
+    margin-top: 0%;
+    margin-left: 46%;
+}
+
+/* Footer codes end */
