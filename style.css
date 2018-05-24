@@ -1,9 +1,21 @@
-html {
+.index {
     background-image: url(../images/hus1.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+       
+}
+
+p {
+    font-family: arial;
+}
+
+.background{
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100%;
+    width: 100%;
 }
 
 /* header codes start  */
@@ -57,15 +69,53 @@ html {
 
 /* footer codes start */
 
-footer {
+.indexfooter {
     width: 100%;
     background-color: grey;
     margin-top: 55%;
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 20%;
+    height: 25%;
 
+}
+
+.projectsfooter {
+    width: 100%;
+    background-color: grey;
+    margin-top: 80%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25%;
+}
+
+.contactfooter {
+    width: 100%;
+    background-color: grey;
+    margin-top: 40%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25%;
+}
+
+.aboutfooter {
+    width: 100%;
+    background-color: grey;
+    margin-top: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25%;
+}
+
+footer {
+    width: 100%;
+    background-color: grey;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 .logofooter {
@@ -101,6 +151,187 @@ span {
 .copyright {
     margin-top: 0%;
     margin-left: 46%;
+    margin-bottom: 2%;
 }
 
 /* Footer codes end */
+
+/* Cantact Form taken from https://css-tricks.com/nice-and-simple-contact-form/ */ 
+#contact-area {
+	width: 600px;
+	margin-top: 15%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 400px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+    margin-right: 12%;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+/* Contact Form End */
+
+/* Contact text */
+#contact-text {
+    display: inline-block;
+    width: 30%;
+    position: absolute; 
+    top: 30%;
+}
+
+.contacticon1 {
+    width: 7%;
+    margin-right: 5%;
+    margin-left: 20%;
+}
+
+.ctext2 {
+    display: inline-block;
+}
+
+.sm1 {
+    width: 10%;
+}
+
+.sm2 {
+    width: 9%;
+}
+
+.socialmedia {
+  position: absolute;
+  left: 63%;
+  top: 62%;
+}
+
+/* about.html css start*/
+
+.jacobbillede{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.jacobtekst{
+    width: 40%;
+    color: aqua;    
+    display:inline-block;   
+    margin-left: 10%;
+    margin-top:0%;
+}
+
+.jacob{
+    background-color: black;
+    border: solid black;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 27%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%; 
+}
+
+.stordiv {
+    width: 100%;
+    display: flex;
+    margin-left: %;
+    align-items: center;
+    justify-content: center;
+}
+.p1, .p2 {
+    width: 40%;
+}
+
+.img1 {
+   width: 50%;
+}
+
+.img2 {
+    width: 40%;
+}
+
+.img3 {
+    width: 35%;
+}
+
+.1 {
+    background-color: black;
+    border: solid black;
+    width: 100%;
+}
+
+/* projects.html */
+.snapwidget-widget {
+    margin-left: 23%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.projectimage1 {
+    width: 25%;
+    margin-left: 19%;
+    margin-top: 1%;
+}
+
+.projectimage2 {
+    width: 25%;
+    margin-left: 55%;
+    margin-top: 1%;
+}
+
+
+.projecttext {
+   display: inline-block;
+    width: 35%;
+    float: right;
+    margin-top: 3%;
+    margin-right: 15%;
+    font-size: 150%;
+    color: aqua;
+}
+
+.projecttextreverse {
+    position: absolute;
+    width: 30%;
+    top: 85%;
+    left: 20%;
+    font-size: 150%;
+    color: aqua;
+}
+
+.boxbackground {
+    background-color: black;
+    border: solid black;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%; 
+}
